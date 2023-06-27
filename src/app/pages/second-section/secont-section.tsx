@@ -12,7 +12,6 @@ const buttons = [
 ]
 
 export default function SecondSection() {
-    console.log(data)
     return (
         <Main>
             <div
