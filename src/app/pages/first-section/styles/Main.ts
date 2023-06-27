@@ -33,14 +33,6 @@ export const MainText = styled.h1`
     align-items: center;
 `
 
-export const HorizontalLine = styled.div`
-    width: 50%;
-    display: flex;
-    height: 1px;
-    background: rgba(99, 99, 99, 0.2);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-`
-
 export const Text = styled.h5`
     width: 100%;
     display: flex;
@@ -51,4 +43,12 @@ export const Text = styled.h5`
     font-size: 12px;
     font-family: Plus Jakarta Sans, sans-serif;
     font-weight: 600;
+`
+
+export const HorizontalLine = styled.div`
+    width: 50%;
+    display: flex;
+    height: 1px;
+    background: rgba(99, 99, 99, 0.2);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 `

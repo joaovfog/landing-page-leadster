@@ -1,4 +1,4 @@
-import { Main, StyledButton, MainText, HorizontalLine, Text } from "./styles";
+import { Main, StyledButton, MainText, Text, HorizontalLine } from "./styles";
 
 export default function FirstSection() {
     return (
