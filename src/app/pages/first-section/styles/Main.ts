@@ -11,16 +11,16 @@ export const Main = styled.div`
 `
 
 export const StyledButton = styled.div`
-    width: 210px;
+    width: 130px;
     background: #fff;
-    height: 30px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50px 50px 50px 0;
     border: 2px solid #007dff;
 
-    font-size: 14px;
+    font-size: 10px;
     color: #007dff;
     font-family: Plus Jakarta Sans, sans-serif;
     font-weight: 600;
@@ -48,6 +48,7 @@ export const Text = styled.h5`
     justify-content: center;
     text-align: center;
     align-items: center;
+    font-size: 12px;
     font-family: Plus Jakarta Sans, sans-serif;
     font-weight: 600;
 `
