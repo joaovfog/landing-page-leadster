@@ -5,9 +5,9 @@ import { CardFooter, CardHeader, Description, Downloads, HorizontalLine, ModalHo
 import { Modal } from "./Modal"
 
 const documents = [
-    { id: 0, title: 'Spreadsheet.xls' },
-    { id: 1, title: 'Document.doc' },
-    { id: 2, title: 'Presentation.ppt' },
+    { id: 0, title: 'Spreadsheet.xls', backgroundColor: '#C2F4EA', color: '#0EC19E' },
+    { id: 1, title: 'Document.doc', backgroundColor: '#C2E6FF', color: '#81C4FA' },
+    { id: 2, title: 'Presentation.ppt', backgroundColor: '#FFF8D0', color: '#B7A136' },
 ]
 
 export const Card = ({ image, title }: any) => {
@@ -95,12 +95,12 @@ export const Card = ({ image, title }: any) => {
                                                 border: '0.5px solid grey',
                                                 borderRadius: '5px',
                                                 boxSizing: 'border-box',
-                                                color: '#111827',
+                                                color: document.color,
                                                 fontFamily: 'Plus Jakarta Sans, sans-serif',
                                                 fontSize: '.875rem',
                                                 fontWeight: '600',
                                                 lineHeight: '1rem',
-                                                backgroundColor: '#fff',
+                                                backgroundColor: document.backgroundColor,
                                                 padding: '.25rem',
                                                 cursor: 'pointer'
                                             }}
