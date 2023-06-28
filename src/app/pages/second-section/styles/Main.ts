@@ -134,6 +134,7 @@ export const Pagination = styled.div`
   align-items: center;
   gap: 0.5rem;
   margin-top: -40px;
+  margin-bottom: 50px;
 `
 
 export const StyledModal = styled.div`

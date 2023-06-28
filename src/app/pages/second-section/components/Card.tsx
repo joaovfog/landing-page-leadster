@@ -1,8 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from "react"
 
-import { CardFooter, CardHeader, Description, Downloads, HorizontalLine, ModalHorizontalLine, StyledCard, Text } from "../styles"
+import { CardFooter, CardHeader, Description, Downloads, ModalHorizontalLine, StyledCard, Text } from "../styles"
 import { Modal } from "./Modal"
+import { CloudDownload } from "@styled-icons/bootstrap/CloudDownload"
 
 const documents = [
     { id: 0, title: 'Spreadsheet.xls', backgroundColor: '#C2F4EA', color: '#0EC19E' },
@@ -92,7 +93,7 @@ export const Card = ({ image, title }: any) => {
                                     <div key={document.id}>
                                         <button
                                             style={{
-                                                border: '0.5px solid grey',
+                                                border: `0.5px solid ${document.backgroundColor}`,
                                                 borderRadius: '5px',
                                                 boxSizing: 'border-box',
                                                 color: document.color,
@@ -105,6 +106,9 @@ export const Card = ({ image, title }: any) => {
                                                 cursor: 'pointer'
                                             }}
                                         >
+                                            <i>
+                                                <CloudDownload style={{ width: 15, marginRight: 5 }} />
+                                            </i>
                                             {document.title}
                                         </button>
                                     </div>
