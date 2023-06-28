@@ -10,3 +10,5 @@ Para rodar o projeto:
     - no terminal escreva: git clone https://github.com/joaovfog/landing-page-leadster.git (caso não tenha o git instalado na máquina, pode baixar o ZIP do projeto);
     - após executar o comando acima, dê o seguinte comando para instalar as dependências do projeto: npm install ou yarn;
     - por fim, para rodar o projeto, execute o comando npm run dev ou yarn dev;
+
+Link do deploy no Vercel: https://landing-page-leadster-nine.vercel.app/
